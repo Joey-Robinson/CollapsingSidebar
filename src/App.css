@@ -1,13 +1,13 @@
 #flyoutMenu {
-  width: 100vw;
+  width: 75vw;
   height: 100vh;
-  background-color: #FFE600;
+  background-color: #222;
   position: fixed;
   top: 0;
   left: 0;
-  transition: transform .3s
+  transition: transform 1s
               cubic-bezier(0, .52, 0, 1);
-  overflow: scroll;
+  overflow: hidden;
   z-index: 1000;
 }
  
@@ -32,7 +32,7 @@
 
 
 body {
-  background-color: #EEE;
+  background-color: darkred;
   font-family: sans-serif;
   font-size: 20px;
   padding: 25px;
