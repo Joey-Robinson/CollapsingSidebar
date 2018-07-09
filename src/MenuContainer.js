@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NewMenu from './NewMenu';
 import Button from './Button';
+import './App.css';
 
 class MenuContainer extends Component {
   state = {
@@ -17,7 +18,8 @@ class MenuContainer extends Component {
   render() {
     return (
       <div>
-        <Button 
+        <Button
+          className="roundButton"
           handleMouseDown={this.handleMouseDown}
         />
         <NewMenu 
